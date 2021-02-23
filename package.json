@@ -2,7 +2,7 @@
   "name": "editorjs-latex",
   "version": "1.0.0",
   "description": "LaTeX support for editor-js",
-  "main": "./index.js",
+  "main": "./dist/editorjs-latex.bundle.js",
   "scripts": {
     "build": "gulp"
   },
