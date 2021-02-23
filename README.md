@@ -1,12 +1,15 @@
-# EditorJS-LaTeX
-[![](https://data.jsdelivr.com/v1/package/gh/mdgaziur/EditorJS-LaTeX/badge)](https://www.jsdelivr.com/package/gh/mdgaziur/EditorJS-LaTeX)
-Check the example: https://mdgaziur.github.io/EditorJS-LaTeX/example
+# editorjs-latex
 
+Example: https://mdgaziur.github.io/EditorJS-LaTeX/example
 
-### LaTeX block support for EditorJS
-### Created By: MD Gaziur Rahman Noor
+This is a forked repository. Thanks to @mdgaziur for the original work.
 
-![Screenshot of EditorJS-LaTeX](./screenshot.png)
+---
+
+## LaTeX block support for EditorJS
+Created By: MD Gaziur Rahman Noor
+
+---
 
 ## Setting Up
 Add the following code inside the ```<head>``` tag.
@@ -47,7 +50,3 @@ The output data of this plugin will look like bellow:
 ```
 
 The "math" item contains the expression. You can use KaTeX to render that in your document.
-
-
-## Conclusion
-If there is any problem or bugs, create an issue in this repository. I'll try my best to help you.
