@@ -69,7 +69,7 @@ class EJLaTeX {
 
     save(blockContent) {
         return {
-            math: blockContent.childNodes[1].value
+            math: blockContent.childNodes[0].value
         };
     }
 }

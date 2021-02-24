@@ -69,7 +69,7 @@ var EJLaTeX = /*#__PURE__*/function () {
     key: "save",
     value: function save(blockContent) {
       return {
-        math: blockContent.childNodes[1].value
+        math: blockContent.childNodes[0].value
       };
     }
   }], [{

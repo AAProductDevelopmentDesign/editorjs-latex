@@ -19,3 +19,7 @@ const editor = new EditorJS({
         "version":"2.19.0"
     }
 });
+
+function save() {
+    editor.save().then((outputData) => {console.log('Article data: ', outputData)}).catch((error) => {console.log('Saving failed: ', error)});
+}
